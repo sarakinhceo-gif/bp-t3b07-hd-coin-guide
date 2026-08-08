@@ -1,179 +1,21 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>판타지 애니 설정 속 북유럽 세계수(Yggdrasil) 전승의 변형 패턴 고찰</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --cream-bg: #fdfdfa;
-      --charcoal-fg: #1c1a17;
-      --gold-accent: #c29d6d;
-      --hairline-color: #e6e3db;
-      --serif-font: 'Nanum Myeongjo', serif;
-      --sans-font: 'Outfit', sans-serif;
-    }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: var(--cream-bg);
-      color: var(--charcoal-fg);
-      font-family: var(--sans-font);
-      line-height: 1.8;
-      padding: 0 40px;
-    }
-    .wrapper {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 80px 0;
-    }
-    header {
-      border-bottom: 1px solid var(--hairline-color);
-      padding-bottom: 32px;
-      margin-bottom: 60px;
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-    }
-    .brand {
-      font-family: var(--serif-font);
-      font-size: 1.5rem;
-      font-weight: 800;
-      color: var(--charcoal-fg);
-      text-decoration: none;
-      letter-spacing: 0.05em;
-    }
-    nav { display: flex; gap: 32px; }
-    nav a {
-      color: var(--charcoal-fg);
-      text-decoration: none;
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      transition: color 0.3s ease;
-    }
-    nav a:hover { color: var(--gold-accent); }
-    main { padding-bottom: 80px; }
-    .kicker {
-      font-size: 0.75rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.2em;
-      color: var(--gold-accent);
-      margin-bottom: 24px;
-    }
-    h1 {
-      font-family: var(--serif-font);
-      font-size: 2.5rem;
-      font-weight: 700;
-      line-height: 1.35;
-      letter-spacing: -0.02em;
-      color: var(--charcoal-fg);
-      margin-bottom: 40px;
-    }
-    .story-body {
-      font-family: var(--serif-font);
-      font-size: 1.15rem;
-      color: var(--charcoal-fg);
-      font-weight: 400;
-      text-align: justify;
-      margin-bottom: 60px;
-    }
-    .story-body p { margin-bottom: 24px; text-indent: 12px; }
-    .juice-link {
-      color: var(--gold-accent);
-      text-decoration: none;
-      border-bottom: 1px solid var(--gold-accent);
-      font-weight: 700;
-      transition: all 0.3s ease;
-    }
-    .juice-link:hover {
-      color: var(--charcoal-fg);
-      border-bottom-color: var(--charcoal-fg);
-    }
-    .editorials {
-      border-top: 1px solid var(--hairline-color);
-      padding-top: 60px;
-    }
-    .editorial-label {
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      color: var(--gold-accent);
-      margin-bottom: 40px;
-    }
-    .editorial-flow {
-      display: flex;
-      flex-direction: column;
-      gap: 40px;
-    }
-    .editorial-block {
-      text-decoration: none;
-      color: var(--charcoal-fg);
-      display: block;
-      border-bottom: 1px solid var(--hairline-color);
-      padding-bottom: 30px;
-    }
-    .editorial-block:hover h3 { color: var(--gold-accent); }
-    .editorial-block h3 {
-      font-family: var(--serif-font);
-      font-size: 1.4rem;
-      font-weight: 700;
-      margin-bottom: 12px;
-      transition: color 0.3s ease;
-    }
-    .editorial-block p {
-      font-size: 0.95rem;
-      color: #555555;
-      font-weight: 300;
-    }
-    footer {
-      border-top: 1px solid var(--hairline-color);
-      padding-top: 40px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.75rem;
-      letter-spacing: 0.1em;
-      color: #888888;
-    }
-    footer a { color: #888888; text-decoration: none; }
-    footer a:hover { color: var(--gold-accent); }
-    @media(max-width: 768px) {
-      header { flex-direction: column; gap: 16px; }
-      h1 { font-size: 2rem; }
-      .story-body { font-size: 1.05rem; }
-    }
-  </style>
-  <link rel="canonical" href="https://hongdae-song-room.namanavi.com/posts/normal-2.html">
+<meta charset="UTF-8">
+<title>홍대 코인노래방 가이드</title>
+<link rel="canonical" href="https://hongdae-song-room.namanavi.com/posts/normal-2.html">
+  <meta name="bpaas-link-purpose" content="link-juice">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <meta property="og:url" content="https://hongdae-song-room.namanavi.com/posts/normal-2.html">
+  <meta property="og:title" content="홍대 코인노래방 가이드">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <a href="/" class="brand">EDITORIAL.KR</a>
-      <nav><a href="../index.html">HOME</a> | <a href="../sitemap.xml">SITEMAP</a></nav>
-    </header>
-    <main>
-      <div class="kicker">BOUTIQUE KR / SELECTION ACCENT</div>
-      <h1>판타지 애니 설정 속 북유럽 세계수(Yggdrasil) 전승의 변형 패턴 고찰</h1>
-      <div class="story-body">
-        수많은 이세계 판타지 만화와 애니메이션에서 세계관의 핵심 축으로 등장하는 세계수 위그드라실 전승은 현대 서브컬처에 이르러 단순한 물리적 나무가 아닌 가상 데이터 그리드나 다차원 통신 게이트웨이로 해체 및 변형되어 차용되고 있습니다. 고대 에다 문헌의 전승 고유 설정과 현대 미디어 믹스 속 변형 구도를 대조해보면 서사 디자인의 진화론적 경로를 명확히 포착할 수 있습니다.<br><br>고대 북유럽 전승 속에 기록된 아홉 세계와 우주 구조에 관한 원형 텍스트는 <a href="https://ko.wikipedia.org/wiki/%EC%9C%84%EA%B7%B8%EB%93%9C%EB%9D%BC%EC%8B%A4" target="_blank" style="color: #64748b; text-decoration: underline;">위키백과: 위그드라실 신화 기록</a>을 통하여 보다 입체적으로 분석하실 수 있습니다.
-      </div>
-      
-      
-    </main>
-    <footer>
-      <div>&copy; 2026 EDITORIAL.KR. ALL RIGHTS RESERVED.</div>
-      <div>
-        <a href="../sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
-      </div>
-    </footer>
-  </div>
+<h1>홍대 코인노래방 가이드</h1>
+<p>홍대 지역에는 다양한 취향을 반영한 코인노래방이 위치해 있습니다. 좁은 공간에 음향 장비와 노래기가 마련된 형태가 일반적이며, 개인 또는 소규모 그룹이 이용할 수 있도록 설계되었습니다. 시설의 크기와 내부 구조는 업소마다 상이할 수 있으므로, 방문 전 미리 확인하는 것이 유리합니다.</p>
+<p>코인노래방은 주로 시간을 단위로 과금하는 시스템을 채택하고 있습니다. 심야 시간대나 주말에는 수요가 증가할 수 있으며, 이로 인해 운영 방식이 달라질 수 있습니다. 정확한 요금 체계나 예약 가능성은 각 업소에서 직접 안내해야 하므로, 사전에 문의하는 과정이 필요합니다.</p>
+<p>홍대 일대의 코인노래방은 기본적으로 음향 장비의 성능과 화면 크기, 곡 목록의 다양성 등을 기준으로 선택하는 경우가 많습니다. 또한 실내 환기 상태와清潔感도 중요한 고려 요소입니다. 여러 업소를 비교해 보는 과정은 <a class="anchor-link" href="https://editor.nonhyeonnight.xyz/" data-bpaas-link-target="t2-editor-nonhyeonnight">서울 정보 블로그 안내</a> 에서 확인할 수 있습니다.</p>
+<p>노래방 이용 시 주의할 점은 주변 환경에 대한 배려입니다. 다른 이용객이나 인근 상가, 주택에 소음이 전달되지 않도록 음량 조절과 말소리 관리가 필요합니다. 또한 흡연 여부는 업소마다 규정이 다르므로, 방문 전 반드시 확인해야 합니다. 마지막으로 법적으로 허용된 범위 내에서만 이용해야 하며, 음주나 흡연 관련 규정을 준수하는 것이 기본マ너입니다.</p>
 </body>
 </html>
