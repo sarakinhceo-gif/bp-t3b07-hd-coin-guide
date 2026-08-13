@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글 목록 (1/2) · t3b07-hd-coin-guide</title>
+  <meta name="description" content="t3b07-hd-coin-guide에 올라온 글 목록입니다.">
+  <link rel="canonical" href="https://hongdae-song-room.namanavi.com/posts.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+ *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+ html { scroll-behavior: smooth; font-size: 16px; }
+ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #fafaf9; color: #1c1c1c; line-height: 1.6; }
+ .container { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+ h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; letter-spacing: -0.02em; }
+ h1 { font-size: clamp(2rem, 5vw, 3.2rem); margin-bottom: 0.5em; }
+ h2 { font-size: clamp(1.5rem, 3vw, 2rem); margin-bottom: 0.6em; border-left: 4px solid #d4a373; padding-left: 16px; }
+ h3 { font-size: 1.25rem; margin-bottom: 0.4em; }
+ p { margin-bottom: 1em; font-size: 1rem; }
+ a { color: #b5835a; text-decoration: none; font-weight: 600; }
+ a:hover { color: #8b5e3c; text-decoration: underline; }
+ header { background: #1c1c1c; color: #fafaf9; padding: 16px 0; position: sticky; top: 0; z-index: 100; }
+ .header-inner { display: flex; justify-content: space-between; align-items: center; max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+ .logo { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.03em; color: #fafaf9; }
+ .logo:hover { color: #d4a373; text-decoration: none; }
+ nav { display: flex; gap: 24px; }
+ nav a { color: #fafaf9; font-size: 0.95rem; font-weight: 500; }
+ nav a:hover { color: #d4a373; text-decoration: none; }
+ @media (max-width: 768px) {
+ .header-inner { flex-wrap: wrap; }
+ nav { display: none; width: 100%; flex-direction: column; gap: 12px; padding-top: 12px; }
+ nav.active { display: flex; }
+ .hamburger { display: block; background: none; border: none; color: #fafaf9; font-size: 1.8rem; cursor: pointer; }
+ }
+ @media (min-width: 769px) {
+ .hamburger { display: none; }
+ }
+ .hero { padding: 80px 0 60px; background: linear-gradient(135deg, #1c1c1c 0%, #2d2a24 100%); color: #fafaf9; text-align: center; }
+ .hero h1 { font-size: clamp(2.4rem, 6vw, 4rem); margin-bottom: 0.3em; }
+ .hero p { font-size: 1.2rem; opacity: 0.85; max-width: 700px; margin: 0 auto; }
+ .section { padding: 64px 0; }
+ .section-alt { background: #f0ede8; }
+ .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin: 32px 0; }
+ .card { background: #fff; border-radius: 12px; padding: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); transition: transform 0.2s; }
+ .card:hover { transform: translateY(-4px); }
+ .card h3 { margin-bottom: 0.5em; }
+ .card p { font-size: 0.95rem; color: #444; }
+ .faq-item { border-bottom: 1px solid #ddd; padding: 20px 0; }
+ .faq-item h3 { cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 1.1rem; }
+ .faq-item h3::after { content: '+'; font-size: 1.4rem; color: #b5835a; }
+ .faq-item.active h3::after { content: '−'; }
+ .faq-item p { margin-top: 12px; display: none; color: #555; }
+ .faq-item.active p { display: block; }
+ .cta { text-align: center; padding: 48px 0; }
+ .cta a { display: inline-block; background: #b5835a; color: #fff; padding: 14px 36px; border-radius: 40px; font-weight: 700; font-size: 1.1rem; transition: background 0.2s; }
+ .cta a:hover { background: #8b5e3c; text-decoration: none; }
+ footer { background: #1c1c1c; color: #aaa; text-align: center; padding: 32px 0; font-size: 0.9rem; }
+ .tel-link { display: inline-block; margin-top: 8px; color: #d4a373; font-weight: 600; }
+ </style>
+  <meta property="og:title" content="글 목록 (1/2) · t3b07-hd-coin-guide">
+  <meta property="og:description" content="t3b07-hd-coin-guide에 올라온 글 목록입니다.">
+  <meta property="og:url" content="https://hongdae-song-room.namanavi.com/posts.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <div class="container">
+    <header>
+ <div class="header-inner">
+ <a href="/" class="logo">🎤 홍대코노</a>
+ <button class="hamburger" onclick="document.querySelector('nav').classList.toggle('active')">☰</button>
+ <nav>
+ <a href="/">홈</a>
+ <a href="/guide">가이드</a>
+ <a href="/picks">추천</a>
+ <a href="/tips">꿀팁</a>
+ </nav>
+ </div>
+ </header>
+    <main>
+      <h1>글 목록</h1>
+      <p>전체 38개 · 1/2 페이지</p>
+      <ul class="post-list">
+      <li class="post-item">
+        <a class="post-item__link" href="posts/checklist-001-1v32jea.html">홍대 코인노래방 가이드 선택 전에 확인할 체크리스트와 실패 사례</a>
+        <p class="post-item__summary">홍대는 유동 인구가 많고 즐길 거리가 풍부하여 코인노래방 역시 밀집해 있습니다. 수많은 매장 중 본인의 목적에 가장 적합한 곳을 선택하려면 방문 전 몇 가지 요소를 확인하는 것이 중요합니다. 가장 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/compare-002-13tm038.html">보드게임 카페 사장의 진실: 글룸헤이븐 1판과 2판 사이 변경된 클래스 카드 스탯 차이</a>
+        <p class="post-item__summary">아, 진짜.. 보드게임 카페에서 가장 분실률이 높았던 부품 중 하나인 클래스 카드의 스탯 변화와 밸런스 조정 이유를 깊이 파헤치는 것이 이번 주제입니다. 갈등은 여기에 있습니다: 손님들이 &quot;1판과 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260705-728.html">홍대 코인노래방 이용 시 확인해야 할 결제 방식과 기기 활용법</a>
+        <p class="post-item__summary">홍대는 유동 인구가 많아 코인노래방이 밀집해 있는 지역입니다. 이곳에서 쾌적하게 노래를 즐기기 위해서는 가장 먼저 매장마다 다른 결제 방식을 미리 숙지하는 것이 중요합니다. 대부분의 매장은 키오스크</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0205.html">홍대 코인노래방 가이드 활용법 및 동대문 마사지 선택 전략</a>
+        <p class="post-item__summary">홍대 코인노래방 가이드 문서를 참고하는 것과 오프라인 매장을 선택하는 과정은 정보의 신뢰도를 판별하는 방식에서 공통점이 많습니다. 단순히 화려한 외관이나 홍보성 문구에 의존하기보다는 실제 운영 정보</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0206.html">홍대 코인노래방 가이드 비교를 통한 인디 소셜 라운지 선택</a>
+        <p class="post-item__summary">홍대 코인노래방 가이드 정보를 찾는 이용자들은 대개 효율적인 비용 지출과 만족도 사이에서 고민합니다. 이는 마포와 합정 일대에서 프라이빗한 소인원 파티를 위해 장소를 섭외하는 상황과 매우 유사한 논</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0207.html">홍대 코인노래방 가이드 작성 시 주의할 지수 성장 클리닉</a>
+        <p class="post-item__summary">홍대 코인노래방 가이드 정보를 구축할 때 많은 이들이 도메인 지수라는 보이지 않는 기준에 매몰되어 실수를 저지릅니다. 흔히 저지르는 실패의 첫 지점은 정보의 알맹이보다 형식적인 키워드 배열에만 집중</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0208.html">홍대 코인노래방 가이드 확인 시 마포 시설 방음 체크</a>
+        <p class="post-item__summary">홍대 코인노래방 가이드 정보를 찾을 때 단순히 위치만 볼 것이 아니라 내부 환경의 쾌적함을 반드시 확인해야 합니다. 마포 지역의 코인 노래방을 선택할 때 소음과 진동은 이용 경험을 완전히 바꾸어 놓</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0209.html">홍대 코인노래방 가이드 활용한 마포 유흥 투명 정찰제 가격 정보 디렉토리</a>
+        <p class="post-item__summary">처음 방문한 마포 거리에서 예상치 못한 추가 요금으로 당황했던 경험은 누구나 한 번쯤 있을 법한 일입니다. 흔히 홍대 코인노래방 가이드를 찾다가 분위기에 휩쓸려 계획에 없던 유흥 업소를 방문할 때 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0210.html">홍대 코인노래방 가이드 기반 마포 셔츠룸 리얼 후기 소셜 마케팅 가이드</a>
+        <p class="post-item__summary">일부 사용자들은 셔츠룸 방문이 복잡하고 위험하다고 생각하지만, 이는 대부분 정보의 부재에서 오는 오해입니다. 사실 홍대 코인노래방 가이드 수준으로 정보를 사전에 숙지한다면, 충분히 즐겁고 안전한 시</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0211.html">홍대 코인노래방 가이드 참조한 구글 알고리즘 감점 치료 및 백링크 수술실</a>
+        <p class="post-item__summary">웹사이트가 검색 엔진 최상단에 노출되기 위해서는 콘텐츠의 질적 우수성, 기술적 무결성, 그리고 안정적인 백링크 구조라는 세 가지 충족 조건이 필요합니다. 이는 마치 홍대 코인노래방 가이드 작성이 인</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0212.html">홍대 코인노래방 가이드 비교하는 마포 럭셔리 단체 가라오케 예약 가이드</a>
+        <p class="post-item__summary">성공적인 단체 모임을 기획할 때 당신은 가장 먼저 무엇을 고려하십니까? 대규모 인원을 수용할 수 있는 시설의 크기인지, 아니면 분위기를 좌우할 음향 시설의 품질인지 궁금합니다. 소규모의 홍대 코인노</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0213.html">홍대 코인노래방 가이드 활용해 마포 셔츠룸 예약 시 눈탱이 피하는 법</a>
+        <p class="post-item__summary">번화가를 방문할 때 대중적인 홍대 코인노래방 가이드 정보를 참고하는 것만큼이나 유흥 업소를 찾을 때의 주의사항을 숙지하는 일은 매우 중요합니다. 특히 마포 지역에서 밤 문화를 즐기려는 이들이 늘어나</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0214.html">홍대 코인노래방 가이드 보며 4</a>
+        <p class="post-item__summary">여가 시간을 보내는 방법 중 하나인 홍대 코인노래방 가이드 탐독처럼, 최근 기술 트렌드를 학습하는 분야에서도 올바른 선택이 중요합니다. 무인 마케팅 스쿨을 찾는 수강생들은 종종 고가의 교육 프로그램</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0215.html">홍대 코인노래방 가이드 참고해 구글 틈새 키워드 트래픽 외환 거래 전략 짜기</a>
+        <p class="post-item__summary">사람들은 흔히 홍대 코인노래방 가이드 수준의 가벼운 정보 접근을 시도하지만, 트래픽 차익 투자와 같은 전문적인 영역에서는 훨씬 정교한 접근이 필요합니다. 많은 초보 투자자가 실패하는 지점은 시장의 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0216.html">홍대 코인노래방 가이드 보며 구글 봇 정밀 검진 및 크롤 버짓 밀착 간호 분석</a>
+        <p class="post-item__summary">웹사이트의 접근성은 홍대 코인노래방 가이드에서 다루는 매장의 물리적 위치만큼이나 디지털 공간에서 중요한 요소입니다. 아무리 좋은 콘텐츠를 생성해도 검색 엔진의 봇이 제대로 크롤링하지 못한다면 아무런</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0217.html">홍대 코인노래방 가이드 활용해 셔츠룸 예약 제대로 알아보기</a>
+        <p class="post-item__summary">번화가를 걷다 보면 수많은 유흥 업종이 밀집해 있어 어디를 선택해야 할지 고민이 깊어지는 경우가 많습니다. 특히 가벼운 마음으로 코인 노래방을 찾던 이들이 우연히 색다른 분위기를 경험하고자 할 때 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0218.html">홍대 코인노래방 가이드 분석 마포 홍대 단체 가라오케 예약 가이드</a>
+        <p class="post-item__summary">많은 이들이 가라오케를 방문할 때 무작정 찾아가면 자리가 있을 것이라 오해하곤 합니다. 하지만 특히 단체 인원이 방문할 경우, 미리 예약하지 않으면 원하는 시간대를 확보하기 매우 어렵습니다. 단순한</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0219.html">홍대 코인노래방 가이드 확인 후 합정 셔츠룸 단골들이 뽑은 핫플 매거진</a>
+        <p class="post-item__summary">좋은 공간을 찾기 위해서는 세 가지 요소가 조화를 이루어야 합니다. 적절한 위치, 검증된 서비스 품질, 그리고 일행과 적합한 인원 구성이 그것입니다. 홍대 코인노래방 가이드 콘텐츠를 소비하며 기본 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0220.html">홍대 코인노래방 가이드 검색처럼 구글 인덱싱 속도 초고속 광회선 대역폭 최적화</a>
+        <p class="post-item__summary">여러분은 원하는 정보를 얻기 위해 검색 엔진에 질문을 던질 때 얼마나 빠른 반응을 기대하시나요? 홍대 코인노래방 가이드 같은 지역 정보를 찾을 때 웹사이트가 느리게 로딩된다면 즉시 창을 닫게 됩니다</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0221.html">홍대 코인노래방 가이드 활용한 구글 신뢰 지수 모발이식 솔루션 분석</a>
+        <p class="post-item__summary">특정 지역의 정보를 탐색하는 과정은 정보의 신뢰도를 판별하는 중요한 척도가 됩니다. 홍대 코인노래방 가이드 문서를 읽어보듯, 데이터의 출처가 명확한지 확인하는 작업은 디지털 환경에서 필수적인 절차입</p>
+      </li>
+      </ul>
+    <nav class="pager">
+      <span class="pager__current">1</span>
+      <a class="pager__link" href="posts-2.html">2</a>
+    </nav>
+    </main>
+  </div>
+</body>
+</html>
